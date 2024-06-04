@@ -81,5 +81,3 @@ PicX 的更新迭代依靠作者工作之外的时间，维护不易，如果对
 **[AGPL-3.0](https://github.com/XPoet/picx/blob/master/LICENSE)** 
 
 Copyright © 2020-Present XPoet
-
-test
