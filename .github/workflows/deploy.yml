@@ -12,12 +12,18 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "20.x"
+          
+      - name: corepackon
+        run: corepack enable
 
+      - name: clean npm cache
+        run: npm cache clean -f
+        
       - name: Install
-        run: npm install
+        run: pnpm install
 
       - name: Build
-        run: npm run build
+        run: pnpm build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
